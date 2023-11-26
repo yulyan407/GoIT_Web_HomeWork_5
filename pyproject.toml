@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-web-homework-5"
+version = "0.1.0"
+description = ""
+authors = ["Yuliia Didenko <yu_lyan@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.0"
+httpx = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
